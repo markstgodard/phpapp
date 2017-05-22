@@ -4,7 +4,6 @@ namespace App;
 
 class Range
 {
-
     public function __construct($start, $end)
     {
         $this->start = $start;
@@ -63,5 +62,4 @@ class Range
     {
         return $this->end - $this->start;
     }
-
 }
