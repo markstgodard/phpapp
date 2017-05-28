@@ -7,7 +7,7 @@ class RangeTest extends \PHPUnit_Framework_TestCase
     public function testRangeOverlaps()
     {
         $r1 = new Range(10, 20);
-        $r2 = new Range(21, 25);
+        $r2 = new Range(15, 25);
 
         $this->assertTrue($r2->overlaps($r1));
     }
