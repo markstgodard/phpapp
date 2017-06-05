@@ -1,2 +1,2 @@
 # phpapp
-simple php app
+simple php app used for testing CI
